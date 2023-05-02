@@ -1,0 +1,60 @@
+<template>
+  <div>
+    <NavComponent />
+    <div class="bodi">
+
+    </div>
+    <FooterComponent/>
+  </div>
+</template>
+
+<script>
+import NavComponent from "@/components/NavComponent.vue";
+import FooterComponent from '@/components/FooterComponent.vue';
+
+export default {
+  components: {
+    NavComponent,
+    FooterComponent
+  },
+};
+</script>
+
+<style>
+.bodi{
+  margin-left:56px;
+}
+.p {
+  outline: red solid 2px;
+}
+
+</style>
+
+
+
+
+
+
+
+rest services:
+___________________________________________
+
+subir ine:
+https://upload.qbits.mx/api/up/upload-identification
+mostrar ine:
+https://upload.qbits.mx/api/up/get-user-identification-images/49
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.
+
+*subir foto perfil:
+https://upload.qbits.mx/api/up/upload-profile-photo
+mostrar foto perfil:
+https://upload.qbits.mx/api/up/get-user-pricipal-image/49
+
+
+
+
+
+
+
+
